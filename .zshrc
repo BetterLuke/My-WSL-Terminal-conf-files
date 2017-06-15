@@ -87,7 +87,15 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+#easy ssh link
 alias ssh-to-itstudio="ssh -p 8388 luke@202.196.0.242"
 alias ssh-to-iec="ssh -p 8388 bei@202.196.1.141"
 alias ssh-to-singapore="ssh luke@128.199.69.20"
+alias ssh-to-mysingapore="ssh luke@128.199.194.22"
 
+#easy scp
+alias scp-from-itstudio="scp -p 8388 root@202.196.0.242:"
+alias scp-from-singapore="scp root@128.199.69.20:"
+alias scp-from-mysingapore="scp root@128.199.194.22:"
+alias scp-to-iec="-p 8388 luke@202.196.1.141:/home/luke"
+alias scp-to-itstudio="-p 8388 luke@202.196.0.242:/home/luke"
